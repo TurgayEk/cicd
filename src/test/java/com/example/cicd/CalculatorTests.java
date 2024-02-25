@@ -91,4 +91,9 @@ public class CalculatorTests {
         double circum=calculator.getCircumference(a);
         Assertions.assertTrue(Double.isNaN(circum));
     }
+
+    @Test
+    void newtest(){
+        Assertions.assertTrue(true);
+    }
 }
